@@ -20,6 +20,7 @@ dist/
 build/
 out/
 *.egg-info/
+*.tsbuildinfo
 
 # Environment files & secrets
 .env
@@ -50,6 +51,12 @@ playwright-report/
 # OS files
 .DS_Store
 Thumbs.db
+
+# Agent skills & editor
+.agent/
+.agents/
+.vscode/
+.idea/
 desktop.ini
 
 # IDE files (personal editor configs)
