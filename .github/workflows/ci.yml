@@ -58,7 +58,7 @@ jobs:
       - name: Install backend dependencies
         working-directory: ./backend
         run: |
-          uv sync --frozen || uv sync
+          uv sync --all-extras --dev
 
       - name: Run Ruff Lint
         working-directory: ./backend
