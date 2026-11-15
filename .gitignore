@@ -1,0 +1,59 @@
+# Dependencies
+node_modules/
+.pnp/
+.pnp.js
+
+# Python virtual environment & cache
+.venv/
+venv/
+ENV/
+env/
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+# Build artifacts
+dist/
+build/
+out/
+*.egg-info/
+
+# Environment files & secrets
+.env
+.env*.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.pem
+*.key
+
+# Logs & temp files
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+.temp/
+.tmp/
+
+# Testing & Coverage
+coverage/
+.coverage
+htmlcov/
+test-results/
+playwright-report/
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE files (personal editor configs)
+.idea/
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
