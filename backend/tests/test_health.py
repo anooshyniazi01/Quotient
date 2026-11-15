@@ -1,4 +1,5 @@
 from app.api.routes.health import health_check
+from app.core.config import settings
 from app.main import root
 
 
@@ -7,7 +8,7 @@ def test_health_check_endpoint():
     assert data.status == "healthy"
     assert data.service == "Quotient"
     assert data.version == "0.1.0"
-    assert data.environment == "development"
+    assert data.environment == settings.ENVIRONMENT
     assert data.timestamp is not None
 
 
